@@ -100,7 +100,7 @@ const MainInfo: FC<MainInfoProps> = ({
                     {seasons[seasons.length - (details.status === 'Ended'
                         ? 1
                         : 2
-                    )].episodeOrder} episodes
+                    )]?.episodeOrder} episodes
                   </Text>
                 </Text>
 
