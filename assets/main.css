@@ -1,0 +1,9 @@
+@import "normalize.css";
+
+html body {
+  background-color: #F1F2F5;
+}
+
+body a:hover {
+  text-decoration: underline;
+}

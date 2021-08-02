@@ -1,0 +1,13 @@
+import { prefix } from 'src/modules/seasons/reducers'
+
+export const GET_SEASON_DETAILS_REQUEST = `${prefix}/GET_SEASON_DETAILS_REQUEST`
+export const GET_SEASON_DETAILS_SUCCESS = `${prefix}/GET_SEASON_DETAILS_SUCCESS`
+export const GET_SEASON_DETAILS_FAILURE = `${prefix}/GET_SEASON_DETAILS_FAILURE`
+
+export const GET_SEASON_EPISODES_REQUEST =
+  `${prefix}/GET_SEASON_EPISODES_REQUEST`
+export const GET_SEASON_EPISODES_SUCCESS =
+  `${prefix}/GET_SEASON_EPISODES_SUCCESS`
+export const GET_SEASON_EPISODES_FAILURE =
+  `${prefix}/GET_SEASON_EPISODES_FAILURE`
+

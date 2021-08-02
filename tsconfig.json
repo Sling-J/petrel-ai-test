@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "pretty": true,
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "lib": ["dom", "es6", "esnext"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "assets": ["assets"],
+      "src": ["src"],
+      "lib": ["lib"],
+      "ui": ["src/ui"],
+      "root": ["src/modules/root"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

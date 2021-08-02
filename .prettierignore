@@ -1,0 +1,7 @@
+node_modules
+.git
+coverage
+build
+dist
+.next
+docker-compose*
